@@ -14,6 +14,7 @@ require_relative '../../api200/server_hardware_type'
 module OneviewSDK
   module API300
     module Synergy
+      # Server Hardware Type resource implementation for API300 Synergy
       class ServerHardwareType < OneviewSDK::API200::ServerHardwareType
       end
     end

@@ -14,6 +14,7 @@ require_relative '../../api200/firmware_bundle'
 module OneviewSDK
   module API300
     module Synergy
+      # Firmware Bundle resource implementation for API300 Synergy
       class FirmwareBundle < OneviewSDK::API200::FirmwareBundle
       end
     end

@@ -14,6 +14,7 @@ require_relative '../../api200/volume_snapshot'
 module OneviewSDK
   module API300
     module C7000
+      # Volume Snapshot resource implementation for API300 C7000
       class VolumeSnapshot < OneviewSDK::API200::VolumeSnapshot
       end
     end

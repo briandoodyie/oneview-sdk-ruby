@@ -14,7 +14,7 @@ require_relative '../../api200/server_profile'
 module OneviewSDK
   module API300
     module Synergy
-      # Server profile resource implementation
+      # Server profile resource implementation for API300 Synergy
       class ServerProfile < OneviewSDK::API200::ServerProfile
         LOGICAL_JBOD_URI = '/rest/sas-logical-jbods'.freeze
         ATTACHMENT_URI = '/rest/sas-logical-jbod-attachments'.freeze

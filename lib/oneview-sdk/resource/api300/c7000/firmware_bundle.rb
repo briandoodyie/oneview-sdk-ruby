@@ -14,6 +14,7 @@ require_relative '../../api200/firmware_bundle'
 module OneviewSDK
   module API300
     module C7000
+      # Firmware Bundle resource implementation for API300 C7000
       class FirmwareBundle < OneviewSDK::API200::FirmwareBundle
       end
     end

@@ -28,6 +28,7 @@ module OneviewSDK
         @kernel = kernel
       end
 
+      # Execute the command-line interface
       def execute!
         exit_code = begin
           $stderr = @stderr

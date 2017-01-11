@@ -14,7 +14,7 @@ require_relative 'resource'
 module OneviewSDK
   module API300
     module Synergy
-      # Logical interconnect group resource implementation
+      # Logical interconnect group resource implementation for API300 Synergy
       class LogicalInterconnectGroup < Resource
         BASE_URI = '/rest/logical-interconnect-groups'.freeze
 

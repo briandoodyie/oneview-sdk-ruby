@@ -14,6 +14,7 @@ require_relative '../../api200/lig_uplink_set'
 module OneviewSDK
   module API300
     module Synergy
+      # Logical Interconnect Group Uplink Set resource implementation for API300 Synergy
       class LIGUplinkSet < OneviewSDK::API200::LIGUplinkSet
       end
     end

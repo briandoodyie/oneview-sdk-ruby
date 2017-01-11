@@ -14,6 +14,7 @@ require_relative '../../api200/power_device'
 module OneviewSDK
   module API300
     module C7000
+      # Power Device resource implementation for API300 C7000
       class PowerDevice < OneviewSDK::API200::PowerDevice
       end
     end

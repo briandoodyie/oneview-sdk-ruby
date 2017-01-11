@@ -14,6 +14,7 @@ require_relative '../../../resource'
 module OneviewSDK
   module API300
     module C7000
+      # Base Resource implementation for API300 C7000 resources
       class Resource < OneviewSDK::Resource
       end
     end

@@ -14,6 +14,7 @@ require_relative '../../api200/volume_snapshot'
 module OneviewSDK
   module API300
     module Synergy
+      # Volume Snapshot resource implementation for API300 Synergy
       class VolumeSnapshot < OneviewSDK::API200::VolumeSnapshot
       end
     end

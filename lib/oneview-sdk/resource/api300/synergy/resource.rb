@@ -14,6 +14,7 @@ require_relative '../../../resource'
 module OneviewSDK
   module API300
     module Synergy
+      # Base Resource implementation for API300 Synergy resources
       class Resource < OneviewSDK::Resource
       end
     end
